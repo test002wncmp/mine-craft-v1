@@ -5,10 +5,21 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: "hashicraft/minecraft"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "v1.17.1-fabric"
+
+env:
+  - name: WHITELIST_ENABLED
+    value: "FALSE"
+  - name: "EULA"
+    value: "TRUE"
+  - name: "OVERRIDE_SERVER_PROPERTIES"
+    value: "TRUE" 
+  - name: "ONLINE_MODE"
+    value: "FALSE" 
+
 
 imagePullSecrets: []
 nameOverride: ""
@@ -36,9 +47,14 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
+probs: 
+  enable: false
+
 service:
-  type: ClusterIP
-  port: 80
+  type: NodePort # ClusterIP
+  port: 25565
+  protocol: TCP
+  targetPort: 25565
 
 ingress:
   enabled: false
