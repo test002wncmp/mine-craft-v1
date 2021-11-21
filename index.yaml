@@ -3,7 +3,17 @@ entries:
   minecraft:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2021-11-22T01:07:41.186568303+05:30"
+    created: "2021-11-22T01:09:08.008612512+05:30"
+    description: A Helm chart for Kubernetes
+    digest: ca6bf3ff2a5ac990c9e26cd1a6097fcb3ac7476b3f188c95508228b134b4c611
+    name: minecraft
+    type: application
+    urls:
+    - minecraft-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2021-11-22T01:09:08.008142816+05:30"
     description: A Helm chart for Kubernetes
     digest: efd4da945e586dbb434cddb799ed1ebfcc4e10118371dbaaf60dcb53c2ad1be3
     name: minecraft
@@ -13,7 +23,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2021-11-22T01:07:41.186098069+05:30"
+    created: "2021-11-22T01:09:08.007667389+05:30"
     description: A Helm chart for Kubernetes
     digest: 84124bbd46ad6c1bd2d9b087256bf527dc38e2cd76ade49d133245e3d1651aed
     name: minecraft
@@ -23,7 +33,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2021-11-22T01:07:41.185627626+05:30"
+    created: "2021-11-22T01:09:08.007194063+05:30"
     description: A Helm chart for Kubernetes
     digest: 07a6927a07163834d738a54c920abdb381d9370653c1058a43c3a11b85c27555
     name: minecraft
@@ -33,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-22T01:07:41.185165377+05:30"
+    created: "2021-11-22T01:09:08.006694912+05:30"
     description: A Helm chart for Kubernetes
     digest: 22a97dcd42b2326536b61af9ddd349c8d9d1d14d6bc8aa3ed183ebed06ca5d0d
     name: minecraft
@@ -41,4 +51,4 @@ entries:
     urls:
     - minecraft-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-22T01:07:41.184553369+05:30"
+generated: "2021-11-22T01:09:08.006011529+05:30"
